@@ -58,7 +58,7 @@ export const getProduct = `query GetProduct($id: ID!) {
     }
     file {
       bucket
-      region
+      regino
       key
     }
     price
@@ -86,7 +86,7 @@ export const listProducts = `query ListProducts(
       }
       file {
         bucket
-        region
+        regino
         key
       }
       price

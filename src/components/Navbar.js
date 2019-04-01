@@ -15,7 +15,7 @@ const Navbar = ({ user, handleSignout }) => (
               alt="App Icon"
               className="app-icon"
             />
-            AmplifyAgora
+            Marketplace-AppWW
           </span>
         </NavLink>
       </Nav.Item>

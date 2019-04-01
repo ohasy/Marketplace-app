@@ -80,7 +80,7 @@ export const createProduct = `mutation CreateProduct($input: CreateProductInput!
     }
     file {
       bucket
-      region
+      regino
       key
     }
     price
@@ -106,7 +106,7 @@ export const updateProduct = `mutation UpdateProduct($input: UpdateProductInput!
     }
     file {
       bucket
-      region
+      regino
       key
     }
     price
@@ -132,7 +132,7 @@ export const deleteProduct = `mutation DeleteProduct($input: DeleteProductInput!
     }
     file {
       bucket
-      region
+      regino
       key
     }
     price
@@ -189,7 +189,7 @@ export const createOrder = `mutation CreateOrder($input: CreateOrderInput!) {
       }
       file {
         bucket
-        region
+        regino
         key
       }
       price

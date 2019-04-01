@@ -80,7 +80,7 @@ export const onCreateProduct = `subscription OnCreateProduct {
     }
     file {
       bucket
-      region
+      regino
       key
     }
     price
@@ -106,7 +106,7 @@ export const onUpdateProduct = `subscription OnUpdateProduct {
     }
     file {
       bucket
-      region
+      regino
       key
     }
     price
@@ -132,7 +132,7 @@ export const onDeleteProduct = `subscription OnDeleteProduct {
     }
     file {
       bucket
-      region
+      regino
       key
     }
     price

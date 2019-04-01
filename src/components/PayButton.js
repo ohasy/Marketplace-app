@@ -10,7 +10,7 @@ const stripeConfig = {
 const PayButton = ({ product, user }) => {
   let handleCharge = async token => {
     try {
-      const result = await API.post("orderLambda", "/charge", {
+      const result = await API.post("ordersLambda", "/orders", {
         body: {
           token
         }

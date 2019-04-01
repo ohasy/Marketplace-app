@@ -43,7 +43,7 @@ class NewProduct extends React.Component {
       const file = {
         key: uploadedFile.key,
         bucket: aws_exports.aws_user_files_s3_bucket,
-        regino: aws_exports.aws_project_region
+        region: aws_exports.aws_project_region
       };
 
       const input = {
